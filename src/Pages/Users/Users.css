@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-users{
+    margin-bottom: 30px;
+
+}
+.content-table{
+   
+    background-color: blue;
+}
+.user-div{
+    display: flex;
+}
+.main-user-container{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+    height: 100vh;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+.main-user-container table{
+    margin: 30px auto;
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.main-user-container button{
+    width: 100px;
+    height: 40px;
+    margin-right: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.main-user-container .canceldel{
+    background-color: rgb(238, 125, 84);
+}
+.main-user-container .canceldel:hover{
+    background-color: orangered;
+}
+.cancelcont{
+    background-color: black;
+    color: white;
+}
+.cancelcont:hover{
+    background-color: grey;
+    color: black;
+}
+.main-user-container .addbutton{
+   
+  
+   background-color: blue;
+   color: white;
+}
+.addbutton:hover{
+    background-color: rgb(5, 5, 51);
+}
+.main-user-container  #cancelbutn{
+    background-color: yellow;
+   
+}
+.main-user-container  #cancelbutn:hover{
+    background-color: rgb(136, 136, 9);
+}
+.main-user-container  .deletebutn{
+    background-color: orange;
+}
+.main-user-container  .deletebutn:hover{
+
+background-color: orangered;
+}
+.prompt-box{
+    min-width: 500px;
+    max-width: 500px;
+    margin: 40px auto;
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    background-color: rgb(221, 218, 212);
+    height: 200px;
+}
+.prompt-box p{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.dash-sub-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    padding-top: 20px;
+}
+.main-user-containe{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    text-align: left;
+}

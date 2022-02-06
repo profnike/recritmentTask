@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-div-edit{
+    width: 100%;
+}
+.form-div-edit form{
+    margin: 40px auto;
+    width: 70%;
+    border: 1px solid black;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.form-div-edit form div{
+    font-size: 20px;
+  
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin: 30px auto;
+    margin-bottom: 30px;
+}
+.form-div-edit input{
+   font-size: 18px;
+    height: 45px;
+    width: 70%;
+}
+.form-div-edit .buttons-canc-del{
+    
+    width: 40%;
+    margin: 20px auto;
+    margin-bottom: 30px;
+  
+}
+.form-div-edit .buttons-canc-del button{
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.first-cancel-butn{
+    background-color: green;
+   color: white;
+}
+.first-cancel-butn:hover{
+    transform: scale(0.95);
+}
+.form-div-edit .buttons-canc-del .first-sub-butn{
+    background-color: white;
+    color: rgb(235, 74, 16);
+    border: 2px solid rgb(231, 71, 13);
+}
+.first-sub-butn:hover{
+    transform: scale(0.95);
+}
+.form-div-edit h2{
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
